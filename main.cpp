@@ -4,11 +4,14 @@
 
 using namespace std;
 
+//주사위 객체 5개 생성
 Dice first;
 Dice second;
 Dice third;
 Dice fourth;
 Dice fifth;
+
+//주사위 5개를 효율적으로 관리하기 위한 배열 생성
 Dice arr[5] = { first, second, third, fourth, fifth };
 
 int main() {
